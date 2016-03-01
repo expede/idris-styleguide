@@ -88,7 +88,9 @@ sum (x :: xs) = x + sum xs
 
 ## Clarification
 ### Single Line
-`-- Great Scott!`
+```idris
+-- Great Scott!
+```
 
 ### Multiple Lines
 Skip the first line
