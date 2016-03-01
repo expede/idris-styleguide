@@ -94,10 +94,10 @@ sum (x :: xs) = x + sum xs
 Skip the first line
 
 ```idris
-{%
+{-
   Unbelievable, that old Biff could have chosen that particular date.
   It could mean that that point in time inherently contains some sort of cosmic significance.
   Almost as if it were the temporal junction point for the entire space-time continuum.
   On the other hand, it could just be an amazing coincidence. 
-%}
+-}
 ```
