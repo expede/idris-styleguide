@@ -34,9 +34,25 @@ data Tree elem = Empty
 %name Tree left, middle, right
 ```
 
-# Indentation
+# Alignment
+## `case`
+```idris
+case foo of
+     Baz -> 0
+     Bar -> 1
+     _   -> 2
+```
 
-# `if ... then ... else`
+# `if/then/else`
+```idris
+-- Good
+if foo == bar
+  then baz
+  else quux
+
+-- Bad
+if foo == bar then baz else quux  
+```
 
 # Totality
 Whenever possible, set the project or file default to total functions. A total function is defined for all possible inputs (on its accepted types). This will alert you to missing cases, and prevent an entire class of errors.
