@@ -4,8 +4,35 @@
 
 # Variable Names
 
+## Type variables
+While the most common names for generic types is `ty`, strive to name names specifically.
+
+```idris
+-- Bad
+Func : Ty -> Ty -> Type
+
+-- Good
+Func : HappyTy -> SadTy -> MoodTy
+
+-- Also good
+Func : StringInt -> Vect n StringInt
+```
+
+If you _must_ fall back to generic naming, we suggest the "tie-dye" naming scheme of a letter plus `y`
+
+```idris
+Ty -> Dy -> Ay -> By -> Cy
+```
+
 ## `%name` directives
-Always use 
+Always use `%name` for functions that can be case split. This will help keep your own code clear, and help others extend your code while in development.
+
+```idris
+data Tree elem = Empty
+               | Node (Tree elem) elem (Tree elem)
+
+%name Tree left, middle, right
+```
 
 # Indentation
 
@@ -18,3 +45,5 @@ Whenever possible, set the project or file default to total functions. A total f
 -- Set all functions to being total functions
 %default total
 ```
+
+# Comments
