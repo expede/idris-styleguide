@@ -7,7 +7,7 @@
   - [`%name` directives](#name-directives)
 - [Alignment](#alignment)
   - [`case`](#case)
-  - [`if/then/else](#if-then-else)
+  - [`if/then/else`](#if-then-else)
 - [Totality](#totality)
 - [Comments](#comments)
   - [Formal Documentation](#formal-documentation)
