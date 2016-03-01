@@ -21,13 +21,13 @@ While the most common names for generic types is `ty`, strive to name names spec
 
 ```idris
 -- Bad
-Func : Ty -> Ty -> Type
+SomeFunc : Ty -> Ty -> Type
 
 -- Good
-Func : HappyTy -> SadTy -> MoodTy
+SomeFunc : HappyTy -> SadTy -> MoodTy
 
 -- Also good
-Func : StringInt -> [StringInt]
+SomeFunc : StringInt -> [StringInt]
 ```
 
 If you _must_ fall back to generic naming, we suggest the "tie-dye" naming scheme of a letter plus `y`
