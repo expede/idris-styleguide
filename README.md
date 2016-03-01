@@ -1,4 +1,5 @@
 # Styleguide for [Idris](http://www.idris-lang.org)
+![](http://www.idris-lang.org/logo/logo.png)
 
 # Table of Contents
 - [Naming](#naming)
