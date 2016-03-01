@@ -1,9 +1,20 @@
 # Styleguide for [Idris](http://www.idris-lang.org)
 
 # Table of Contents
+- [Naming](#naming)
+  - [Type Variables](#type-variables)
+  - [`%name` directives](#name-directives)
+- [Alignment](#alignment)
+  - [`case`](#case)
+  - [`if/then/else](#if-then-else)
+- [Totality](#totality)
+- [Comments](#comments)
+  - [Formal Documentation](#formal-documentation)
+  - [Clarification](#clarification)
+  - [Single Line](#single-line)
+  - [Multiple Lines](#multiple-lines)
 
-# Variable Names
-
+# Naming
 ## Type variables
 While the most common names for generic types is `ty`, strive to name names specifically.
 
