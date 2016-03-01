@@ -44,6 +44,12 @@ data Tree elem = Empty
                | Node (Tree elem) elem (Tree elem)
 
 %name Tree left, middle, right
+
+-- Automatic variable naming:
+Eq elem => Eq (Tree elem) where
+    (==) Empty y = ?Eq_rhs_3
+    (==) (Node left x middle) y = ?Eq_rhs_1
+    (/=) x y = ?Eq_rhs_2
 ```
 
 # Alignment
