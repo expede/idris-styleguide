@@ -47,3 +47,25 @@ Whenever possible, set the project or file default to total functions. A total f
 ```
 
 # Comments
+## Formal Documentation
+Formal documentation for a function is give 
+
+```idris
+||| Sum a list of numbers
+sum : [Int] -> Int
+sum [] = 0
+sum (x :: xs) = x + sum xs
+```
+
+## Clarification
+### Single Line
+`-- Comment`
+
+### Multiple Lines
+Skip the first line
+
+```idris
+{%
+  comments
+%}
+```
