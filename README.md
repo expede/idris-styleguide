@@ -1,3 +1,5 @@
+*NOTE: This styleguide is in early stages & thus very incomplete and subject to rapid change*
+
 # [Idris](http://www.idris-lang.org) Styleguide
 ![](http://www.idris-lang.org/logo/logo.png)
 
