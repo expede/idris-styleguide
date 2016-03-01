@@ -1,4 +1,4 @@
-# Styleguide for [Idris](http://www.idris-lang.org)
+# [Idris](http://www.idris-lang.org) Styleguide
 ![](http://www.idris-lang.org/logo/logo.png)
 
 # Table of Contents
