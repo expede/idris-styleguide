@@ -49,21 +49,22 @@ data Tree elem = Empty
 # Alignment
 ## `case`
 ```idris
-case foo of
-     Baz -> 0
-     Bar -> 1
-     _   -> 2
+case year of
+     1885 -> Frightened
+     1955 -> Anxious
+     1985 -> Comfortable
+     _    -> Curious
 ```
 
 # `if/then/else`
 ```idris
 -- Good
-if foo == bar
-  then baz
-  else quux
+if milesPerHour == 88
+  then TimeWarp
+  else RegularTime
 
 -- Bad
-if foo == bar then baz else quux  
+if milesPerHour == 88 then TimeWarp else RegularTime
 ```
 
 # Totality
@@ -87,13 +88,16 @@ sum (x :: xs) = x + sum xs
 
 ## Clarification
 ### Single Line
-`-- Comment`
+`-- Great Scott!`
 
 ### Multiple Lines
 Skip the first line
 
 ```idris
 {%
-  comments
+  Unbelievable, that old Biff could have chosen that particular date.
+  It could mean that that point in time inherently contains some sort of cosmic significance.
+  Almost as if it were the temporal junction point for the entire space-time continuum.
+  On the other hand, it could just be an amazing coincidence. 
 %}
 ```
