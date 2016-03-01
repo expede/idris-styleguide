@@ -27,7 +27,7 @@ Func : Ty -> Ty -> Type
 Func : HappyTy -> SadTy -> MoodTy
 
 -- Also good
-Func : StringInt -> Vect n StringInt
+Func : StringInt -> [StringInt]
 ```
 
 If you _must_ fall back to generic naming, we suggest the "tie-dye" naming scheme of a letter plus `y`
