@@ -70,10 +70,10 @@ Tabs are illegal. Use 2 spaces normally, unless it helps to improve the comprehe
 ### `case`
 ```idris
 case year of
-     1885 -> Frightened
-     1955 -> Anxious
-     1985 -> Comfortable
-     _    -> Curious
+     1885 => Frightened
+     1955 => Anxious
+     1985 => Comfortable
+     _    => Curious
 ```
 
 ### `if/then/else`
