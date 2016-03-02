@@ -53,9 +53,9 @@ data Tree elem = Empty
 
 -- Automatic variable naming:
 Eq elem => Eq (Tree elem) where
-    (==) Empty y = ?Eq_rhs_3
-    (==) (Node left x middle) y = ?Eq_rhs_1
-    (/=) x y = ?Eq_rhs_2
+  (==) Empty y = ?Eq_rhs_3
+  (==) (Node left x middle) y = ?Eq_rhs_1
+  (/=) x y = ?Eq_rhs_2
 ```
 
 # Formatting
@@ -64,7 +64,7 @@ Observe the standard 80-character limit
 
 ## Alignment
 ### Indentation
-Tabs are illegal. Use 2 spaces normally, unless it helps to improve the comprehension of the structure of the code.
+Tabs are illegal. Use 2 spaces normally, unless it helps to improve the comprehension of the structure of the code, such as in the cases listed below.
 
 ### `case`
 ```idris
