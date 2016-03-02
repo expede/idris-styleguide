@@ -7,10 +7,12 @@
 - [Naming](#naming)
   - [Type Variables](#type-variables)
   - [`%name` directives](#name-directives)
-- [Alignment](#alignment)
-  - [Indentation](#indentation)
-  - [`case`](#case)
-  - [`if/then/else`](#if-then-else)
+- [Formatting](#formatting)
+- - [Line Length](#line-length)
+  - [Alignment](#alignment)
+    - [Indentation](#indentation)
+    - [`case`](#case)
+    - [`if/then/else`](#if-then-else)
 - [Totality](#totality)
 - [Comments](#comments)
   - [Formal Documentation](#formal-documentation)
@@ -55,11 +57,15 @@ Eq elem => Eq (Tree elem) where
     (/=) x y = ?Eq_rhs_2
 ```
 
-# Alignment
-## Indentation
+# Formatting
+## Line Length
+Observe the standard 80-character limit
+
+## Alignment
+### Indentation
 Tabs are illegal. Use 2 spaces normally, unless it helps to improve the comprehension of the structure of the code.
 
-## `case`
+### `case`
 ```idris
 case year of
      1885 -> Frightened
@@ -68,7 +74,7 @@ case year of
      _    -> Curious
 ```
 
-# `if/then/else`
+### `if/then/else`
 ```idris
 -- Good
 if milesPerHour == 88
