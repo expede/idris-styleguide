@@ -90,7 +90,7 @@ if milesPerHour == 88 then TimeWarp else RegularTime
 ### Multiline `data` Declarations
 Align the `|` with the `=`
 
-```idirs
+```idris
 data Maybe a = Nothing
              | Just a
 ```
