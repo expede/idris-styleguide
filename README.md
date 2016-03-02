@@ -13,6 +13,7 @@
     - [Indentation](#indentation)
     - [`case`](#case)
     - [`if/then/else`](#if-then-else)
+    - [Multiline `data` Declarations](#multiline-data-declarations)
   - [Blank Lines](#blank-lines)
 - [Totality](#totality)
 - [Comments](#comments)
@@ -84,6 +85,14 @@ if milesPerHour == 88
 
 -- Bad
 if milesPerHour == 88 then TimeWarp else RegularTime
+```
+
+### Multiline `data` Declarations
+Align the `|` with the `=`
+
+```idirs
+data Maybe a = Nothing
+             | Just a
 ```
 
 ## Blank Lines
