@@ -8,11 +8,12 @@
   - [Type Variables](#type-variables)
   - [`%name` directives](#name-directives)
 - [Formatting](#formatting)
-- - [Line Length](#line-length)
+  - [Line Length](#line-length)
   - [Alignment](#alignment)
     - [Indentation](#indentation)
     - [`case`](#case)
     - [`if/then/else`](#if-then-else)
+  - [Blank Lines](#blank-lines)
 - [Totality](#totality)
 - [Comments](#comments)
   - [Formal Documentation](#formal-documentation)
@@ -84,6 +85,11 @@ if milesPerHour == 88
 -- Bad
 if milesPerHour == 88 then TimeWarp else RegularTime
 ```
+
+## Blank Lines
+Use one blank line to break apart logical groups of imports.
+Place a blank line between functions, type definitions, and so on.
+Do not place a blank line between type signatures and function definitions.
 
 # Totality
 Whenever possible, set the project or file default to total functions. A total function is defined for all possible inputs (on its accepted types). This will alert you to missing cases, and prevent an entire class of errors.
