@@ -10,10 +10,10 @@ We believe that taste can be a very personal matter. Feel free to adjust the sty
 
 1. Fork, then clone the repo: `git clone git@github.com:your-username/styleguide-idris.git`
 2. Make your change
-3. Push to your fork and [submit a pull request][pr].
+3. Push to your fork and [submit a pull request](https://github.com/expede/idris-styleguide/pulls).
 
-At this point you're waiting on us. We may suggest some changes or improvements or alternatives. The maintainers reserve the right to reject any resource that we feel does not add new information, or does not adhere to the [Open Code of Conduct](http://todogroup.org/opencodeofconduct/#styleguide-idris/beep@robotoverlord.io)
+At this point you're waiting on us. We may suggest some changes or improvements or alternatives. The maintainers reserve the right to reject any resource that we feel does not add new information, or does not adhere to the [Open Code of Conduct](code-of-conduct)
 
 ## Code of Conduct
-This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
+This project adheres to the [Open Code of Conduct](code-of-conduct). By participating, you are expected to honor this code.
 [code-of-conduct]: http://todogroup.org/opencodeofconduct/#styleguide-idris/beep@robotoverlord.io
