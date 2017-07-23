@@ -114,9 +114,9 @@ Formal documentation for a function is give
 
 ```idris
 ||| Sum a list of numbers
-sum : [Int] -> Int
-sum [] = 0
-sum (x :: xs) = x + sum xs
+mySum : List Int -> Int
+mySum [] = 0
+mySum (x :: xs) = x + mySum xs
 ```
 
 ## Clarification
